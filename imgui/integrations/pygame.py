@@ -27,6 +27,7 @@ class PygameRenderer(FixedPipelineRenderer):
         key_map[imgui.KEY_HOME] = pygame.K_HOME
         key_map[imgui.KEY_END] = pygame.K_END
         key_map[imgui.KEY_DELETE] = pygame.K_DELETE
+        key_map[imgui.KEY_SPACE] = pygame.K_SPACE
         key_map[imgui.KEY_BACKSPACE] = pygame.K_BACKSPACE
         key_map[imgui.KEY_ENTER] = pygame.K_RETURN
         key_map[imgui.KEY_ESCAPE] = pygame.K_ESCAPE

@@ -42,6 +42,7 @@ class SDL2Renderer(ProgrammablePipelineRenderer):
         key_map[imgui.KEY_HOME] = SDL_SCANCODE_HOME
         key_map[imgui.KEY_END] = SDL_SCANCODE_END
         key_map[imgui.KEY_DELETE] = SDLK_DELETE
+        key_map[imgui.KEY_SPACE] = SDLK_SPACE
         key_map[imgui.KEY_BACKSPACE] = SDLK_BACKSPACE
         key_map[imgui.KEY_ENTER] = SDLK_RETURN
         key_map[imgui.KEY_ESCAPE] = SDLK_ESCAPE

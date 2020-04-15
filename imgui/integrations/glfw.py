@@ -38,6 +38,7 @@ class GlfwRenderer(ProgrammablePipelineRenderer):
         key_map[imgui.KEY_HOME] = glfw.KEY_HOME
         key_map[imgui.KEY_END] = glfw.KEY_END
         key_map[imgui.KEY_DELETE] = glfw.KEY_DELETE
+        key_map[imgui.KEY_SPACE] = glfw.KEY_SPACE
         key_map[imgui.KEY_BACKSPACE] = glfw.KEY_BACKSPACE
         key_map[imgui.KEY_ENTER] = glfw.KEY_ENTER
         key_map[imgui.KEY_ESCAPE] = glfw.KEY_ESCAPE
